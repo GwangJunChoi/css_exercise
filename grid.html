@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html leng="ko">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>grid exercise</title>
+        <style>
+            .father{
+                display:grid;
+                /* items   첫번째 column width 40xp 두번째 column width 10px 고정값 추가 */
+                grid-template-columns:40px 10px;
+                /* items  첫번째 row element height 40xp 두번째 row element height 25px */
+                grid-template-rows:40px 25px;
+                grid-gap:5px;
+            }
+            .box{
+                background-color:brown;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="father">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </body>
+</html>
