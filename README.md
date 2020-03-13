@@ -38,3 +38,19 @@ https://laracasts.com/
 
 모던퍼그 정모 발표자료 : 매달 첫째주 수요일에 진행되는 모던퍼그의 정모 발표자료 입니다
 https://github.com/ModernPUG/meetup
+
+## Document
+
+1. async await ( https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/async_function )
+2. arrow function ( https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Functions/%EC%95%A0%EB%A1%9C%EC%9A%B0_%ED%8E%91%EC%85%98 )
+3. Promise pattern ( https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Global_Objects/Promise )
+4. closure ( https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Closures )
+5. import & export ( https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Statements/import )
+6. Template Literals ( https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Template_literals )
+7. 구조 분해 할당 <br> 
+    ex. [ a, b, ...foo] = array(1,2,3,4,5) <br> 
+        { a, b, ...c } = { a:1, b:2 , c:3, d: 4}<br> 
+        ( https://developer.mozilla.org/ko/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment )
+8. prototype chain ( https://developer.mozilla.org/ko/docs/Web/JavaScript/Guide/Inheritance_and_the_prototype_chain )
+9. scope ( block & function )(var, let, const, arrow function ) <br>
+        ( https://poiemaweb.com/js-scope )
