@@ -17,13 +17,14 @@
     <button class="add-button">Add to home screen</button>
 </body>
 <script>
-    let deferredPrompt;
+    
     const addBtn = document.querySelector('.add-button');
     addBtn.style.display = 'none';
 let deferredPrompt;
 
 window.addEventListener('beforeinstallprompt', (e) => {
   // Prevent the mini-infobar from appearing on mobile
+    console.log('beforeinstallprompt',e);
   e.preventDefault();
   // Stash the event so it can be triggered later.
   deferredPrompt = e;
