@@ -1,0 +1,15 @@
+{
+  "background_color": "purple",
+  "description": "test.",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "https://cdn.snapfit.co.kr/stores/vighead47/event_image/KakaoTalk_20190321_161320326.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ],
+  "name": "Awesome fox pictures",
+  "short_name": "test_test",
+  "start_url": "http://vighead47.cafe24.com/product/detail.html?product_no=19&cate_no=24&display_group=1"
+}
