@@ -34,10 +34,10 @@ window.addEventListener('beforeinstallprompt', (e) => {
     if ("serviceWorker" in navigator) {
         navigator.serviceWorker.register('test_sw.js').then(function(registration) {
           // 등록이 성공했다면 (즉 설치가 완료되었다면)
-          alert("service worker sucess");
+          //alert("service worker sucess");
         }).catch(function(err) {
           // 등록이 실패했다면
-          alert("service worker fail");
+          //alert("service worker fail");
         });
         
     }
