@@ -102,4 +102,4 @@ var AddToHomeScreen = function(settings = {}) {
   }
 };
 
-module.exports = AddToHomeScreen;
+//module.exports = AddToHomeScreen;
