@@ -1,7 +1,7 @@
 self.addEventListener('install', function(e) {
- console.log('[Service Worker] Install');
  e.waitUntil(
    caches.open('teset').then(function(cache) {
+     console.log('[Service Worker] Install');
      return cache.addAll([]);
    })
  );
